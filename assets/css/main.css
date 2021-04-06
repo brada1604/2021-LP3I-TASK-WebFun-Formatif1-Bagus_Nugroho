@@ -1,0 +1,219 @@
+body{
+	background-color: #8c8c8c;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+.page {
+    margin: 0px 5% 0px 5%;
+    position: relative;
+}
+
+.fix-layouts{
+    clear: both; 
+}
+
+header{
+	background-color: rgb(68 54 105);
+	width: 100%;
+	/*height: 50px;*/
+	margin-top: 0;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+header a{
+	margin-top: -100px;
+	color: #ffa200;
+	font-weight: bold;
+	margin-left: 2%;
+}
+
+header a:hover{
+	color: #fff;
+}
+
+header img{
+	margin-top: -12px;
+	margin-right: 15px;
+	width: 5%;
+	float: right;
+}
+
+header img:hover{
+	width: 5.1%;
+}
+
+nav img{
+	width: 100%;
+	height: 300px;
+}
+
+section{
+	background-color: #fff;
+	margin-top: -30px;
+}
+
+.deskripsi h1{
+	color: #ffa200;
+	margin: 20px;
+}
+
+.deskripsi p{
+	text-align: justify;
+	margin: 20px;
+}
+
+.about{
+	margin-top: 10px;
+	margin-left: 5%;
+	/*color: #000000;  */
+	text-align: center;
+}
+
+.abouts {
+	width: 30%;
+	float: left;
+	margin-left: 1%;
+}
+
+.abouts h1{
+	text-align: center;
+	padding: 5px;
+	margin-top: -4%;
+}
+
+.abouts p{
+	text-align: justify;
+	margin-top: -15px;
+	padding: 10px;
+}
+
+.abouts img{
+	width: 30%;
+	padding: 10px;
+}
+
+.abouts img:hover{
+	width: 35%;
+	transform: translate(0px,-5px);
+}
+
+.jurusan{
+	margin-top: 10px;
+	margin-left: 5%;
+	/*color: #000000;  */
+	text-align: center;
+}
+
+.jurusans {
+	width: 18%;
+	float: left;
+	margin-left: 1%;
+	color: #363232;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.jurusans h1{
+	text-align: center;
+	padding: 5px;
+	margin-top: -4%;
+}
+
+.jurusans p{
+	text-align: center;
+	margin-top: -15%;
+	padding: 10px;
+}
+
+.jurusans img{
+	width: 80%;
+	padding: 10px;
+}
+
+.jurusans img:hover{
+	width: 85%;
+	transform: translate(0px,-5px);
+}
+
+.jurusans button{
+	border-radius: 20px;
+	width: 70%;
+	height: 40px;
+	background-color: #575c7a;
+	color: #fff;
+}
+
+.jurusans button:hover{
+	background-color: #8a8a8a;
+	color: #575c7a;
+}
+
+.message{
+	margin-top: 5%;
+}
+
+.message p{
+	color: #575c7a;
+}
+
+input[type=email] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #575c7a;
+  box-sizing: border-box;
+}
+
+input.placeholder{
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+.message button{
+	margin-top: 10px;
+	border-radius: 20px;
+	width: 20%;
+	height: 40px;
+	background-color: #575c7a;
+	color: #fff
+}
+
+.message button:hover{
+	background-color: #8a8a8a;
+	color: #575c7a;
+}
+
+footer{
+	background-color: rgb(68 54 105);
+	text-align: center;
+	padding: 10px;
+}
+
+footer a{
+	color: #ededed;
+}
+
+footer a:hover{
+	color: #878787;
+}
